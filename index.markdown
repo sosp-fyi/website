@@ -5,5 +5,6 @@
 layout: home
 ---
 
-Coming sooooooooon. <br>
+Coming sooooooooon.
+
 Angelie has infiltrated the network.
