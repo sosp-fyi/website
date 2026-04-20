@@ -6,4 +6,4 @@ permalink: /about/
 
 Coming _whenever_.
 
-![](./assets/logo-nsf.png)
+![](/assets/logo-nsf.png)
