@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{%- assign class_name = page.class_name | default: page.title -%} {%- assign class_notes = site.notes | where_exp: "note", "note.class == class_name" | sort: "date" | reverse -%} {%- assign missing_title = class_notes | where_exp: "note", "note.title
+== nil or note.title == ''" -%} {%- assign missing_date = class_notes | where_exp: "note", "note.date == nil" -%}
+
+<div class="class-page">
+    <section class="class-page-hero" aria-labelledby="class-page-title">
+        <p class="notes-breadcrumb"><a href="{{ '/notes/' | relative_url }}">Notes Index</a> / {{ class_name }}</p>
+        <h1 class="page-heading" id="class-page-title">{{ class_name }}</h1>
+        <p class="home-subtitle">Class-specific archive for {{ class_name }} notes.</p>
+    </section>
+
+    {%- if missing_title.size > 0 or missing_date.size > 0 -%}
+    <aside class="notes-quality-warning" aria-label="Class note metadata warnings">
+        <h3 class="notes-quality-title">Metadata reminders for this class</h3>
+        <ul class="notes-quality-list">
+            {%- if missing_title.size > 0 -%}
+            <li>{{ missing_title.size }} note{% if missing_title.size != 1 %}s{% endif %} missing <code>title</code>.</li>
+            {%- endif -%} {%- if missing_date.size > 0 -%}
+            <li>{{ missing_date.size }} note{% if missing_date.size != 1 %}s{% endif %} missing <code>date</code>.</li>
+            {%- endif -%}
+        </ul>
+    </aside>
+    {%- endif -%} {%- if class_notes.size > 0 -%}
+    <ul class="class-page-list">
+        {%- for note in class_notes -%}
+        <li class="class-page-item">
+            <h2 class="class-page-title"><a class="note-link" href="{{ note.url | relative_url }}">{{ note.title | default: note.basename }}</a></h2>
+            <p class="note-meta">
+                {%- if note.date -%}
+                <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %-d, %Y" }}</time>
+                {%- else -%}
+                <span>Date missing</span>
+                {%- endif -%}
+            </p>
+            {%- if note.excerpt -%}
+            <p class="note-excerpt">{{ note.excerpt | strip_html | truncate: 220 }}</p>
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- else -%}
+    <div class="notes-empty-state">
+        <h3>No notes for {{ class_name }} yet</h3>
+        <p>Create a note in <code>_notes</code> with <code>class: {{ class_name }}</code> to populate this page.</p>
+    </div>
+    {%- endif -%}
+</div>

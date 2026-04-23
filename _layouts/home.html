@@ -3,10 +3,37 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    <section class="home-hero" aria-labelledby="home-title">
+        {%- if page.title -%}
+        <h1 class="page-heading" id="home-title">{{ page.title }}</h1>
+        {%- else -%}
+        <h1 class="page-heading" id="home-title">Class Notes Reference</h1>
+        {%- endif -%}
 
-  {{ content }}
+        <p class="home-subtitle">A single directory for class notes across the Southwest Ohio Scholars Program. Browse by class to find the latest notes quickly.</p>
 
+        {%- if content != "" -%}
+        <div class="home-intro">{{ content }}</div>
+        {%- endif -%}
+
+        <dl class="home-stats" aria-label="Notes summary">
+            <div class="home-stat">
+                <dt>Total notes</dt>
+                <dd>{{ site.notes | size }}</dd>
+            </div>
+            <div class="home-stat">
+                <dt>Classes tracked</dt>
+                <dd>{{ site.notes | group_by_exp: "note", "note.class | default: 'Uncategorized'" | size }}</dd>
+            </div>
+        </dl>
+
+        <p class="home-cta-row">
+            <a class="home-cta-link" href="{{ '/notes/' | relative_url }}">Open full notes index</a>
+            <span aria-hidden="true">|</span>
+            <a class="home-cta-link" href="{{ '/about/' | relative_url }}">About the program</a>
+        </p>
+    </section>
+
+    <p class="home-preview-note">Featured classes are sorted by note volume and show the most recent notes first.</p>
+    {% include notes-directory.html notes=site.notes heading="Featured Notes by Class" show_class_links=true class_sort="size" max_classes=4 max_notes_per_class=4 id_prefix="home" %}
 </div>
