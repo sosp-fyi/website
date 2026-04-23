@@ -1,0 +1,6 @@
+---
+layout: class-notes
+title: CS105
+class_name: CS105
+permalink: /notes/classes/cs105/
+---

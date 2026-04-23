@@ -1,0 +1,32 @@
+---
+title: "Persuasive Strategies"
+date: 2025-09-03 00:00:00 -0400
+class: English1001
+---
+
+Class: English 1001 - English Comp<br>
+Subject/Topics: English<br>
+Date: 09/03/2025
+Teacher: Anastasia Smothers<br>
+
+
+The commercial I'm choosing is Kanye West's Super Bowl commercial from 2025. Here is the [link](https://www.youtube.com/watch?v=h6R--LMTbsI). The intended audience was the people watching the Super Bowl. More specifically, it was targeting people who already knew Kanye or at least vaguely knew who he was. The purpose of the ad was to try and get people to buy his clothing brand. However, I don't think the commercial was received very well. Not only is the commercial boring and seemingly unplanned, but Kanye isn't very liked among the public due to his beliefs that he has posted on X (formerly Twitter). The commercial was propagated through the internet, specifically the Super Bowl's official outlets, and later put on to YouTube.  
+
+The commercial has barely any content, but there are still many factors that play into how it was received. The ad includes kairos because the ending has a call to action that tries to get the viewer to buy the product. The commercial could be said to use pathos, an emotional response, due to the absurdity of the situation. I think a lot of peoples reactions would be confusion because there is a certain expectation for the quality of ads being shown during the Super Bowl, and this one had little to no production value. However, the largest factor was ethos or Kanye's credibility. At that time Kanye wasn't viewed favorably by the public, which makes the likelihood of buying his product very slim. These three rhetorical appeals might get viewers to remember the commercial, but I don't think they do a good job of selling the product. Its ineffectiveness likely lies in the unrehearsed and seeming effortlessness that went into the production of the ad. 
+
+In conclusion, the ad didn't persuade me. In fact, I think it might have had the opposite effect, not only on me, but on the majority of the people who saw the commercial. It doesn't help that Kanye has a seemingly total disregard for the money he was spending to have this ad played during the Super Bowl, let alone the quality of the commercial he was putting out.
+
+### Responses
+1. The intended audience here is definitely families with dogs, the purpose of the ad was to show how amazon can help families quickly by shipping items directly to your house. This ad was played around 9 years ago and a specific event that happened around then was when President of Russia Putin's dogs barked at Japanese journalists and it was shown on worldwide news, this could've influenced Japanese people by the world thinking that dogs hate Japanese people, with other racial stereotypes involved so I think they used the dog to show not just Japan but the world that dogs do like Japanese people, and the medium this commercial used was a Tv or video ad. The strategy they used was definitely Pathos using the dog looking sad and watching the family outside having fun with the baby, I think the appeal is great and using the dog was a great idea especially towards pet owners, it was effect because lots of family's have pets and dogs in general so the audience is huge and I also think that because I was definitely appealed by the ad just because I have two dogs too and it appealed to me because I never want dogs to feel that way so I would definitely do the same thing this guy did if I saw my dog that way.
+
+Hi Marshall, super wholesome commercial. Super curious why or even how you found this relatively old ad. But I agree with you in wanting to make your pets happy and not left out. Do you think that the effect of the commercial has diminished because it is nine years old and the product (Amazon) is so widely known now? Also, do you think that this ad is multicultural because you said it had an effect on you even though you weren't the target audience? If so, why do you think that is? Is it due to the ad showing a very broad use-case to their product which can be used by anyone? 
+
+2. 
+	1. The intended audience is sick people. The purpose of this ad is to influence people to buy their tissues because they won't irritate and make your nose red like others will since they are infused with lotion. Current events would influence how the message is received because if there is a sickness outbreak or if it is cold and flu season it would hit harder and more people would pay attention and purchase their product. The medium that is used to have the commercial reach its audience is through the television.
+
+	2. This commercial uses both pathos and logos. With pathos, they show the discomfort and irritation that can be caused by regular tissues when you are constantly blowing your nose when your sick. It also shows how children can feel by using a child as the sick person, which gives people empathy of how children may be feeling when they are sick, and how buying those tissues can make one thing easier while being sick. It also uses logos by taking the logical thought of adding lotion to tissues since it makes your nose dry without it, so adding that moisturizing effect can make that change. I do think that this appeal is effective because it is a great way to influence sick people to buy their product to avoid the pain and annoyance of having a dry and raw nose from using normal tissues so much when you are sick. 
+
+	3. This commercial did persuade me because I did get these tissues and they do really make a difference when it comes to avoiding that discomfort when you are sick and makes a big overall difference compared to a normal tissue. 
+	https://www.youtube.com/watch?v=i_1I2OnGhi8
+
+Hi, I totally agree that it uses both pathos and logos in this commercial. I think that using a kid as the target of the ad makes people (especially parents) more likely to buy the product because they empathize with the situation and don't want their kid to go through that pain. I think that the target audience is mainly suited towards parents. It seems that they were mainly focusing on parents as their ideal audience due to the parent/kid relationship shown in the ad, the animation style, and the narrator's lines. This ad was very persuasive to me as well because I can sympathize with what the kid is going through, and it would be nice to have a lotion-infused tissue to help with a dry nose.

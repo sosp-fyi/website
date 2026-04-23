@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Scholar Notes Hub
 ---
 
-Coming soon.
+This site organizes class notes by course so scholars can find shared materials quickly.
