@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Coming _really raelly_ soon.
+Coming _really really_ soon.
