@@ -1,0 +1,23 @@
+---
+title: "Useful Info for Annotated Bibliography"
+date: 2025-11-05 00:00:00 -0400
+class: English1001
+---
+
+Class: English 1001 - English Comp<br>
+Subject/Topics: English<br>
+Date: 11/05/2025
+Teacher: Anastasia Smothers<br>
+
+
+**Summary:**  
+In “Radiation Effects on Satellites During Extreme Space Weather Events,” Hands and colleagues investigate how intense solar radiation environments affect satellite systems through detailed modeling and observational analysis. The study examines data from major solar storms between 2000 and 2015, showing that flux levels of high-energy protons during peak events can exceed 10,000 particles per square centimeter per second, far above normal background conditions (Hands et al. 1218). These elevated radiation doses are linked to single-event upsets in satellite electronics and to long-term degradation of solar panels by up to 10% after major storms. The authors also describe how energetic particles can penetrate spacecraft shielding and disrupt electronic circuits, resulting in both transient and permanent malfunctions. They conclude that improved design standards and predictive modeling are essential for mitigating radiation damage and maintaining satellite reliability during extreme space weather events.
+
+**Evaluation:**  
+This article offers a highly credible and current examination of radiation impacts on satellites, published in a respected, peer-reviewed scientific journal. The authors, associated with leading research organizations such as the UK Space Environment and Effects Laboratory, provide authoritative insight into satellite vulnerability under solar storm conditions. Their arguments are supported by extensive data analysis, experimental measurements, and validated computational models that enhance the accuracy and reliability of their conclusions. The logical structure and evidence-based presentation make the research both trustworthy and relevant to modern satellite operations. By combining technical clarity with empirical data, the study effectively demonstrates the tangible risks posed by radiation exposure in near-Earth space.
+
+**Reflection:**  
+This source deepens my understanding of how radiation from solar storms can directly impair satellite systems, offering measurable evidence that connects physical space weather phenomena to technological consequences. The study’s data-driven approach provides a foundation for explaining specific mechanisms, such as electronic upsets and power degradation, within my broader research on space weather’s technological impacts. It complements other sources that focus on geomagnetic or communication effects by offering a specialized look at radiation-induced damage. I plan to reference this article when discussing how future satellite designs can incorporate shielding and system redundancies to minimize disruptions caused by high-energy particles. Its recent publication ensures that my analysis reflects up-to-date research on the intersection between solar activity and satellite technology.
+
+# Intro Paragraph that I Don't Think I Need Anymore
+Space weather, mainly produced from the sun in events such as solar flares, coronal mass ejections, and changes in solar wind (waves of charged particles emitted from the sun), pose a significant risk to modern technology and satellites in a multitude of ways. The four sources presented in this paper explain the root cause of the issue and then produce data to show the effects of space weather on technological systems. Daglis’s volume provides a broad foundation by explaining the connection between weather events such as geomagnetic storms and other phenomena and how they cause issues like inducing currents, disruption of power and communications, and threatening spatial assets (Daglis). Hands et al. then focus specifically on radiation specific vulnerabilities such as total ionizing dose, displacement damage, and internal charging effects that can permanently degrade or disable satellite hardware during extreme events (Hands et al.). Miteva et al. solely analyzes the mechanistic impacts of space weather on spacecraft surfaces, onboard electronics, and mission performance (Miteva et al.). Finally, Schmölter presents the first results on how space weather can compromise satellite-based surveillance and navigation used in air-traffic control and management, which shows the real-world impact that space weather has on safety and situation awareness in our increasingly satellite dependent world (Schmölter et al.). Together these works form a foundation for what space weather is and the classification of different types of events to quantify hazard assessment and practical operational consequences.

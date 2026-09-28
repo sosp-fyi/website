@@ -1,0 +1,6 @@
+---
+layout: class-notes
+title: CS1100
+class_name: CS1100
+permalink: /notes/classes/cs1100/
+---

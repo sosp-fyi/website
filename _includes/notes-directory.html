@@ -1,0 +1,71 @@
+{%- assign notes_source = include.notes | default: site.notes -%} {%- assign section_heading = include.heading | default: 'Notes by Class' -%} {%- assign sort_mode = include.class_sort | default: 'name' -%} {%- assign max_classes =
+include.max_classes | default: 0 | plus: 0 -%} {%- assign max_notes_per_class = include.max_notes_per_class | default: 0 | plus: 0 -%} {%- assign notes_by_class = notes_source | group_by_exp: "note", "note.class | default: 'Uncategorized'" -%} {%- if
+sort_mode == 'size' -%} {%- assign notes_by_class = notes_by_class | sort: "size" | reverse -%} {%- else -%} {%- assign notes_by_class = notes_by_class | sort: "name" -%} {%- endif -%} {%- assign missing_title = notes_source | where_exp: "note",
+"note.title == nil or note.title == ''" -%} {%- assign missing_class = notes_source | where_exp: "note", "note.class == nil or note.class == ''" -%} {%- assign missing_date = notes_source | where_exp: "note", "note.date == nil" -%}
+
+<section class="notes-directory" aria-labelledby="notes-directory-title">
+    <div class="notes-directory-header">
+        <h2 class="post-list-heading" id="notes-directory-title">{{ section_heading }}</h2>
+    </div>
+
+    {%- if missing_title.size > 0 or missing_class.size > 0 or missing_date.size > 0 -%}
+    <aside class="notes-quality-warning" aria-label="Missing note metadata warnings">
+        <h3 class="notes-quality-title">Some notes are missing required metadata</h3>
+        <ul class="notes-quality-list">
+            {%- if missing_title.size > 0 -%}
+            <li>{{ missing_title.size }} note{% if missing_title.size != 1 %}s{% endif %} missing <code>title</code>.</li>
+            {%- endif -%} {%- if missing_class.size > 0 -%}
+            <li>{{ missing_class.size }} note{% if missing_class.size != 1 %}s{% endif %} missing <code>class</code> and will appear in <strong>Uncategorized</strong>.</li>
+            {%- endif -%} {%- if missing_date.size > 0 -%}
+            <li>{{ missing_date.size }} note{% if missing_date.size != 1 %}s{% endif %} missing <code>date</code>.</li>
+            {%- endif -%}
+        </ul>
+    </aside>
+    {%- endif -%} {%- if notes_source.size > 0 -%}
+    <div class="class-groups">
+        {%- for class_group in notes_by_class -%} {%- if max_classes > 0 and forloop.index > max_classes -%} {%- break -%} {%- endif -%} {%- assign sorted_items = class_group.items | sort: "date" | reverse -%} {%- assign class_slug = class_group.name
+        | slugify -%} {%- if max_notes_per_class > 0 -%} {%- assign shown_items = sorted_items | slice: 0, max_notes_per_class -%} {%- else -%} {%- assign shown_items = sorted_items -%} {%- endif -%}
+
+        <article class="class-card" aria-labelledby="class-{{ include.id_prefix | default: 'group' }}-{{ forloop.index }}">
+            <header class="class-card-header">
+                {%- if include.show_class_links and class_group.name != 'Uncategorized' -%}
+                <h3 id="class-{{ include.id_prefix | default: 'group' }}-{{ forloop.index }}" class="class-name">
+                    <a class="class-name-link" href="{{ '/notes/classes/' | append: class_slug | append: '/' | relative_url }}">{{ class_group.name }}</a>
+                </h3>
+                {%- else -%}
+                <h3 id="class-{{ include.id_prefix | default: 'group' }}-{{ forloop.index }}" class="class-name">{{ class_group.name }}</h3>
+                {%- endif -%}
+                <p class="class-count">{{ class_group.items | size }} note{% if class_group.items.size != 1 %}s{% endif %}</p>
+            </header>
+
+            <ul class="note-list">
+                {%- for note in shown_items -%}
+                <li class="note-item">
+                    <a class="note-link" href="{{ note.url | relative_url }}">{{ note.title | default: note.basename }}</a>
+                    <p class="note-meta">
+                        {%- if note.date -%}
+                        <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %-d, %Y" }}</time>
+                        {%- else -%}
+                        <span>Date missing</span>
+                        {%- endif -%}
+                    </p>
+                    {%- if note.excerpt -%}
+                    <p class="note-excerpt">{{ note.excerpt | strip_html | truncate: 140 }}</p>
+                    {%- endif -%}
+                </li>
+                {%- endfor -%}
+            </ul>
+
+            {%- if max_notes_per_class > 0 and class_group.items.size > max_notes_per_class -%}
+            <p class="class-preview-meta">Showing latest {{ max_notes_per_class }} of {{ class_group.items.size }} notes.</p>
+            {%- endif -%}
+        </article>
+        {%- endfor -%}
+    </div>
+    {%- else -%}
+    <div class="notes-empty-state">
+        <h3>No notes published yet</h3>
+        <p>Add note files in the <code>_notes</code> folder with <code>title</code>, <code>date</code>, and <code>class</code> frontmatter to populate this directory.</p>
+    </div>
+    {%- endif -%}
+</section>
