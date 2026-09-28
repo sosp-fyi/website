@@ -15,3 +15,9 @@ Resources you will find helpful when studying for Biology.
 
 ## Physics
 Resources you will find helpful when studying for Physics.
+- Physics 1 Formula Sheet:
+https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
+- Physics Review Videos:
+https://www.youtube.com/playlist?list=PLMmzicajje3zhHaNlDkkxEHIntxKl35gI
+- Physics Khan Academy:
+https://www.khanacademy.org/science/ap-college-physics-1
