@@ -5,12 +5,23 @@ innav: Yes
 permalink: /about/
 ---
 
-# UC Southwest Ohio STEM Scholars
+# The University of Cincinnati Southwest Ohio STEM Scholars Program
 
-The Southwest Ohio STEM scholars program is a branch inside of the U.S. National Science Foundation's scholarships for excellence in STEM that supports computer science students at UC.
+The Southwest Ohio STEM scholars program (SOSP) is part of the National Science Foundation’s Scholarships in STEM (S-STEM) initiative.
+
+Here at the University of Cincinnati, the S-STEM Scholars Program supports computer science students who demonstrate strong academic and professional potential.
+
+# Our Scholars
+
+Our scholars community includes 36 Computer Science students who: 
+- Engage in hands-on workshops
+- Participate in professional networking
+- Develop projects tailored around their interests
+- Meet with faculty mentors who share their passion for the industry
+
+Together, these experiences strengthen scholars' core knowledge of Computer Science cirriculum and enrich their time at the University of Cincinnati.
 
 
 
-Coming _whenever_.
 
 ![](/assets/logo-nsf.png)
