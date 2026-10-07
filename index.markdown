@@ -8,4 +8,4 @@ layout: home
 ## Academic Resources
 
 - [**Math**](/math/)
-- [**Chemistry**](/chemistry/)
+- [**Science**](/science/)
