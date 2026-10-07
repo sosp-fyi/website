@@ -19,5 +19,5 @@ Resources that you will find helpful when studying for your discrete math classe
 1. [Disctrete Structures - Math - Open Math Books](https://discrete.openmathbooks.org/dmoi4.html): A website that gives you a free electronic version of the Discrete Mathematics book by Oscar Levin.
 ## Statistics
 
-
+Resources that you will find helpful when studying for your statistics classes.
 
