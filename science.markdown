@@ -9,6 +9,7 @@ Resources you will find helpful when studying for Chemistry Classes.
 1. [Gen Chem - Science - Youtube](https://www.youtube.com/@TheOrganicChemistryTutor): Videos with information and instruction regarding chemistry
 2. [Gen Chem - Science - Phet](https://phet.colorado.edu): Tons of simulations that help students grasp key concepts in chemistry
 
+1. [Chemistry Resource](https://chemistry-teaching-resources.com/): Videos with information on topics you would find in Chemistry of varying levels.
 
 ## Biology
 Resources you will find helpful when studying for Biology. 
