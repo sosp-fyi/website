@@ -5,7 +5,4 @@
 layout: home
 ---
 
-## Academic Resources
-
-- [**Math**](/math/)
-- [**Science**](/science/)
+Coming _really really_ soon.
