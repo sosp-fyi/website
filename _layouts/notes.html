@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="notes-page">
+    <section class="notes-page-hero" aria-labelledby="notes-page-title">
+        <h1 class="page-heading" id="notes-page-title">{{ page.title | default: 'Notes Index' }}</h1>
+        {%- if page.description -%}
+        <p class="home-subtitle">{{ page.description }}</p>
+        {%- endif -%} {{ content }}
+    </section>
+
+    {% include notes-directory.html notes=site.notes heading="All Notes by Class" show_class_links=true id_prefix="notes" %}
+</div>

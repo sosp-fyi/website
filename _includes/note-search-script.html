@@ -1,0 +1,13 @@
+<script id="note-search-data" type="application/json">
+    [
+    {%- for note in site.notes -%}
+      {
+        "title": {{ note.title | default: note.basename | jsonify }},
+        "className": {{ note.class | default: "Uncategorized" | jsonify }},
+        "url": {{ note.url | relative_url | jsonify }},
+        "text": {{ note.content | strip_html | strip_newlines | normalize_whitespace | truncate: 280 | jsonify }}
+      }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+    ]
+</script>
+<script src="{{ '/assets/js/note-search.js' | relative_url }}"></script>

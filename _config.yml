@@ -21,17 +21,32 @@
 title: Southwest Ohio Scholars Program
 email: nothingyet@sosp.fyi
 description: >- # this means to ignore newlines until "baseurl:"
-  The online source for scholar-generated information about the SOSP
-  at the University of Cincinnati.
+    The online source for scholar-generated information about the SOSP
+    at the University of Cincinnati.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+header_pages:
+    - about.markdown
+    - notes.markdown
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
+
+collections:
+    notes:
+        output: true
+        permalink: /notes/:path/
+
+defaults:
+    - scope:
+          path: ""
+          type: notes
+      values:
+          layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default.
