@@ -9,3 +9,4 @@ layout: home
 
 - [**Math**](/math/)
 - [**Science**](/science/)
+- [**Meta**](/meta/)
