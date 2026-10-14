@@ -38,4 +38,4 @@ There are several great resources for learning how to write Markdown:
 - [A syntax guide](https://daringfireball.net/projects/markdown/syntax) from the person who pioneered Markdown.
 - [A syntax guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) from Github.
 
-[^md]: "Daring Fireball: Markdown." Accessed: Sep. 28, 2026. [Online]. Available: https://daringfireball.net/projects/markdown/
+[^md]: "Daring Fireball: Markdown." Accessed: Sep. 28, 2026. [Online]. Available: [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
