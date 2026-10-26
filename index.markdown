@@ -9,6 +9,7 @@ layout: home
 
 - [**Math**](/math/)
 - [**Science**](/science/)
+- [**Computer Science**](/computerscience/)
 
 ## Resources
 - [**Meta**](/meta/)
