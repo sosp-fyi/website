@@ -82,4 +82,3 @@ Arash Tabesh
 
 Pujan Subedi
 
-![](/assets/logo-nsf.png)
