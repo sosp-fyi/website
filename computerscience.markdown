@@ -6,7 +6,7 @@ permalink: /computerscience/
 
 ## CS 1100 - Intro To Computer Science
 
-Resources and topics for CS 1110:
+Resources and Topics for CS 1110:
 
 1. [Jobs in computer science](https://www.bls.gov/ooh/computer-and-information-technology/):
     - List of some jobs in computer science to help with week 1 and 2 assignment.
@@ -20,7 +20,7 @@ Resources and topics for CS 1110:
 
 ## CS 1021C - Computer Science 1
 
-Resources and topics for CS 1021C:
+Resources and Topics for CS 1021C:
 
 1. [General introduction to programming with C++](https://cppreference.com/)
     - Link to everything you need to know about C++!
