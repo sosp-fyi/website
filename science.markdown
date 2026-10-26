@@ -12,5 +12,7 @@ Resources you will find helpful when studying for Chemistry Classes.
 ## Biology
 Resources you will find helpful when studying for Biology. 
 
+1. [Biology Resource](https://www.khanacademy.org/science/biology): Khan academy with infromation on Biology. 
+
 ## Physics
 Resources you will find helpful when studying for Physics.
