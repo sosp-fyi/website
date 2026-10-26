@@ -77,7 +77,7 @@ AJ Tucker
 
 Luke Brinkruff
 
-Cris Carter
+Cris Carter: I'm am first year student from Cincinnati, Ohio that is interested in Computer Science because I want to create my own video games or contribute to video games that are currently being created. 
 
 Korei Thomas
 
