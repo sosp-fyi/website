@@ -87,7 +87,7 @@ Ethan Lawrence
 
 Luke Mmanyi
 
-Andrew Raymond
+Andrew Raymond - I'm interested in Computer Science because it's a broad skillset that can be used in many different industries, and I've always been interested in the problem solving required in the field. as well as the creativity
 
 Max Robbins
 
