@@ -10,6 +10,7 @@ Resources that you will find helpful when studying for your calculus classes.
 
 1. [Calculus 1 - Math - Khan Academy](https://www.khanacademy.org/math/calculus-1): Videos with information on topics you would find in Calc 1.
 2. [Calulus 2 - Math - Khan Academy](https://www.khanacademy.org/math/calculus-2): Videos with infomration on topics you would find in Calc 2. 
+3. [Pre-Calculus- Math - Khan Academy](https://www.khanacademy.org/math/precalculus): Videos with information on topics that you would find in Pre Calculus.
 
 
 ## Discrete
