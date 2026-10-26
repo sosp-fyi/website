@@ -77,7 +77,7 @@ AJ Tucker
 
 Luke Brinkruff
 
-Cris Carter
+Cris Carter: I am a first year Computer Science Major from Cincinnati, Ohio that is interested in developing code for game/software development. I have 2 years worth of experience in Java and have created multiple projects under the code. 
 
 Korei Thomas
 
